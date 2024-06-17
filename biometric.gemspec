@@ -8,17 +8,16 @@ Gem::Specification.new do |spec|
   spec.authors = ['Abdelrahman Hassan']
   spec.email = ['abdelrahmanhsn1@gmail.com']
 
-  spec.summary = 'biometric'
-  spec.description = 'biometric'
+  spec.summary = 'Provides biometric authentication support for mobile devices'
+  spec.description = 'A gem to work with mobile fingerprint or face biometric authentication'
   spec.homepage = 'https://github.com/abdelrahman-hsn/biometric'
   spec.license = 'MIT'
   spec.required_ruby_version = '>= 2.5.0'
 
   spec.metadata['allowed_push_host'] = 'https://rubygems.org'
 
-  spec.metadata['homepage_uri'] = 'https://github.com/abdelrahman-hsn'
-  spec.metadata['source_code_uri'] = 'https://github.com/abdelrahman-hsn/biometric'
-  spec.metadata['changelog_uri'] = 'https://github.com/abdelrahman-hsn/biometric'
+  spec.metadata['homepage_uri'] = spec.homepage
+  spec.metadata['changelog_uri'] = "#{spec.homepage}/commits/main/"
 
   # Specify which files should be added to the gem when it is released.
   # The `git ls-files -z` loads the files in the RubyGem that have been added into git.
