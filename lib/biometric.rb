@@ -2,6 +2,8 @@
 
 require_relative 'biometric/version'
 require_relative 'biometric/configuration'
+require_relative 'biometric/create'
+require_relative 'biometric/check'
 
 # Biometric gem
 module Biometric

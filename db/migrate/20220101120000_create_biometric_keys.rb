@@ -1,5 +1,6 @@
 # frozen_string_literal: true
 
+# CreateBiometricKeys
 class CreateBiometricKeys < ActiveRecord::Migration[7.1]
   def change
     create_table :biometric_keys do |t|

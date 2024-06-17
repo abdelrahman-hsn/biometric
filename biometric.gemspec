@@ -12,9 +12,9 @@ Gem::Specification.new do |spec|
   spec.description = 'biometric'
   spec.homepage = 'https://github.com/abdelrahman-hsn/biometric'
   spec.license = 'MIT'
-  spec.required_ruby_version = '>= 3.0.0'
+  spec.required_ruby_version = '>= 2.5.0'
 
-  spec.metadata['allowed_push_host'] = "https://rubygems.org"
+  spec.metadata['allowed_push_host'] = 'https://rubygems.org'
 
   spec.metadata['homepage_uri'] = 'https://github.com/abdelrahman-hsn'
   spec.metadata['source_code_uri'] = 'https://github.com/abdelrahman-hsn/biometric'
@@ -31,7 +31,6 @@ Gem::Specification.new do |spec|
   spec.bindir = 'exe'
   spec.executables = spec.files.grep(%r{\Aexe/}) { |f| File.basename(f) }
   spec.require_paths = ['lib']
-  spec.required_ruby_version = '>= 2.5.0'
 
   # Uncomment to register a new dependency of your gem
   # spec.add_dependency "example-gem", "~> 1.0"
